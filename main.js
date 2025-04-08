@@ -1,12 +1,9 @@
 
-import * as THREE from 'https://cdn.skypack.dev/three';
-// import { STLLoader } from 'three/examples/jsm/loaders/STLLoader.js';
-// import { PLYLoader } from 'three/examples/jsm/loaders/PLYLoader.js';
-// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import { STLLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/STLLoader.js';
-import { PLYLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/PLYLoader.js';
-import { OrbitControls } from 'https://cdn.skypack.dev/three/examples/jsm/controls/OrbitControls.js';
-
+import * as THREE from 'three';
+import { STLLoader } from 'three/examples/jsm/loaders/STLLoader.js';
+import { PLYLoader } from 'three/examples/jsm/loaders/PLYLoader.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { TransformControls } from 'three/examples/jsm/controls/TransformControls.js';
 
 // Configuración inicial
 const scene = new THREE.Scene();
